@@ -7,18 +7,101 @@
 	<h1>Formulários</h1>
 	<h2>Aula sobre interação do html com forms</h2>
 	
-	<form name="aula">
+	<form name="aula"> 
 		<h3>Inputs: </h3>
 
+		<h4>Type text</h4>
 		<label for="txtLogin">Login de usuário:</label>
-		<input type="text" id="txtLogin" placeholder="Insira um login"> 
+		<input type="text" id="txtLogin" placeholder="Insira um login" name="login" disabled> 
 		<br>
 		<label for="txtNome">Nome do usuário:</label>
-		<input type="text" id="txtNome">
+		<input type="text" id="txtNome" required name="nome">
+
+		<input type="text" name="cpf" pattern="\A-Z{3}-?\d{4}"
+      
 
 		<br>
 
-		
+		<h4>Type email</h4>
+
+		<label for="txtmail">Cadastre seu e-mail</label>
+		<input type="email" id="txtmail" placeholder="Informe seu email" required name="email">
+
+		<h4>Type password</h4>
+
+		<label for="txtsenha">Informe sua senha:</label>
+		<input type="password" id="txtsenha" name="senha">	
+
+		<h4>Type phone</h4>
+
+		<input type="phone" name="telefone">
+
+		<h4>Outrps input</h4>		
+		<label>Color</label>
+		<input type="color">
+		<br>
+		<label>Number</label>
+		<input type="number" min="0" max="3">
+		<br>
+		<label>Range</label>
+		<input type="range" min="0" max="50" value="35">
+		<br>
+		<label>Saida progress</label>
+		<progress value="10" min="0" max="100"></progress>
+		<br>
+
+		<h4>Inputs checkbox e radiobox: </h4>
+
+		<h5>Frutas favoritas</h5>
+		<label>Banana</label>
+		<input type="checkbox" name="frutas" value="banana">
+		<label>Pera</label>
+		<input type="checkbox" name="frutas" value="pera">
+		<label>Uva</label>
+		<input type="checkbox" name="frutas" value="uva">
+		<label>Sapoti</label>
+		<input type="checkbox" name="frutas" value="sapoti">
+
+		<h5>Lugares que irei viajar</h5>
+
+		<label>Madri</label>
+		<input type="checkbox" name="viagem" value="madri">
+		<label>Milão</label>
+		<input type="checkbox" name="viagem" value="milao"> 	
+		<label>Barcelona</label>
+		<input type="checkbox" name="viagem" value="barca">
+
+		<h5>Radio</h5>
+
+		<label>Masculino</label>
+		<input type="radio" name="genero" value="masc">
+		<label>Feminino</label>
+		<input type="radio" name="genero" value="femin">
+
+		<h4>Select</h4>
+
+		<select name="estados">
+			<option value="ba">Bahia</option>
+			<option value="se">Sergipe</option>
+			<option value="rs">Rio Grande do Sul</option>
+			<option value="Ro">Roraima</option>
+			<option value="rr">Rondonia</option>
+		</select>
+
+		<select name="estados" multiple>
+			<option value="ba">Bahia</option>
+			<option value="se">Sergipe</option>
+			<option value="rs">Rio Grande do Sul</option>
+			<option value="Ro">Roraima</option>
+			<option value="rr">Rondonia</option>
+		</select>
+
+		<h4>Textarea</h4>
+
+		<textarea maxlength="10"></textarea>
+
+		<input type="submit" value="Cadastrar">
+		<button>Enviar</button>
 	</form>
 
 </body>
