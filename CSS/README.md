@@ -27,6 +27,7 @@
  Basicamente 3 tipos de seletores
  1. Seletor natural. A própria tag selecionada  
  2. ID. Identificador, elemento único no documento. Representador por #
+ 3. Classe Representa um grupo e o seu referencia de seletor é o "."
 
 
  ###### CORES
@@ -43,3 +44,9 @@
 		F   0   0
 		F   8   C
 		RR GG BB
+
+
+## Atividade de fixição
+Construiremos um aplição web como exercício de fixação baseada no layout abaixo:
+
+![interface para produção em aula](https://raw.githubusercontent.com/geltoncruz/47012/master/images/THEMA.png)

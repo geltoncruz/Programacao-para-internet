@@ -65,3 +65,13 @@ h2{
 	color:#0000ff;
 	font-size: 3rem;
 }
+/*
+h1, p, address {
+    color: #ff0000;
+}
+*/
+.corVermelha{
+	color: #ff0000;
+	font-family: verdana;
+	font-size: 12px;
+}
