@@ -1,0 +1,50 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+#geral{
+	width: 850px;
+	margin: 0 auto;
+}
+
+header{
+	width: 850px;
+	height: 65px;
+	background: #403F45;
+	float: left;
+}
+
+header #navegacao{
+	width: 850px;
+	height: 65px;
+	float: left;
+}
+header #navegacao div#logo{
+	width: 150px;
+	height: 65px;
+	float: left;
+	
+}
+
+header #navegacao nav {
+    height: 45px;
+    float: right;
+    margin-top: 20px;
+}
+
+header #navegacao nav a {
+    color: #fff;
+    font-family: verdana;
+    font-size: 1em;
+    text-decoration: none;
+    padding: 25px 10px;
+}
+
+header #navegacao nav a:hover{
+	color: #000;
+	background: #FBED04;
+	border-bottom: 5px solid #F2850D;
+	box-sizing: content-box;
+} 
