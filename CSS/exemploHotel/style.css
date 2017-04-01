@@ -48,3 +48,15 @@ header #navegacao nav a:hover{
 	border-bottom: 5px solid #F2850D;
 	box-sizing: content-box;
 } 
+
+header section#banner {
+    width: 850px;
+    height: 315px;
+    float: left;
+    background: url(img/suiteConfort.jpg) no-repeat;
+    background-size: 850px;
+    background-position-y: -300px;
+}
+img{
+	max-width: 100px;
+}
