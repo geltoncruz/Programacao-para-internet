@@ -14,7 +14,7 @@ header{
 	width: 850px;
 	height: 65px;
 	background: #403F45;
-	float: left;
+	/*float: left;*/
 }
 
 header #navegacao {
@@ -106,7 +106,54 @@ form[name="reserva"]  button {
     margin-left: 120px;
 }
 
-
-img{
-	max-width: 100px;
+article, footer {
+    width: 850px;
+    float: left;
+    padding: 20px;
+    box-sizing: border-box;
 }
+
+
+section.suites {
+    width: 270px;
+    float: left;
+    padding: 10px 5px;
+    box-sizing: border-box;
+    border-left: 1px dashed #999;
+    text-align: center;
+}
+section.suites:first-child {
+    border: none;
+}
+
+section.suites h1 {
+    font-size: 1.3em;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.1em;
+    margin-bottom: 	10px;
+}
+
+section.suites img {
+    width: 80%;
+    border-radius: 50%;
+    margin-bottom: 	10px;
+}
+
+.suites a.detalhes {
+	padding: 10px 30px;
+    background: #333;
+    color: #E7DC0E;
+    
+    margin-left: 0;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.suites a.detalhes:hover {
+    /* text-decoration: underline; */
+    background: #E7DC0E;
+    color: #333;
+}
+
+.suites a
