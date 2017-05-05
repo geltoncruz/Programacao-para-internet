@@ -2,6 +2,7 @@
 	margin: 0;
 	padding: 0;
 	border: 0;
+	font-family: Arial;
 }
 
 #geral{
@@ -16,10 +17,12 @@ header{
 	float: left;
 }
 
-header #navegacao{
-	width: 850px;
-	height: 65px;
-	float: left;
+header #navegacao {
+    width: 850px;
+    height: 65px;
+    float: left;
+    padding: 10px 50px;
+    box-sizing: border-box;
 }
 header #navegacao div#logo{
 	width: 150px;
@@ -31,7 +34,7 @@ header #navegacao div#logo{
 header #navegacao nav {
     height: 45px;
     float: right;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 header #navegacao nav a {
@@ -48,15 +51,62 @@ header #navegacao nav a:hover{
 	border-bottom: 5px solid #F2850D;
 	box-sizing: content-box;
 } 
-
 header section#banner {
     width: 850px;
     height: 315px;
     float: left;
-    background: url(img/suiteConfort.jpg) no-repeat;
+    background: url(img/bannerHome.jpg) no-repeat;
     background-size: 850px;
-    background-position-y: -300px;
+    background-position-y: -90px;
+    padding: 50px;
+    box-sizing: border-box;
 }
+form[name="reserva"] {
+    width: 400px;
+    background: rgba(255,255,255,0.65);
+    padding: 20px;
+    box-sizing: border-box;
+}
+form[name="reserva"] h1 {
+    font-family: Arial;
+    font-size: 1em;
+    text-transform: capitalize;
+    font-weight: lighter;
+    letter-spacing: 0.2em;
+    margin-bottom: 10px;
+}
+form[name="reserva"] label {
+    width: 120px;
+    float: left;
+    /* font-family: Arial; */
+    font-size: 0.8em;
+    margin-bottom: 5px;
+    cursor: pointer;
+    margin-top: 5px;	
+}
+form[name="reserva"] input, form[name="reserva"] select {
+    background: #fff;
+    width: 220px;
+    border: 1px solid #999;
+    height: 30px;
+    padding: 5px;
+    box-sizing: border-box;
+    box-shadow: 1px 2px 5px grey inset;
+    margin-bottom: 5px;
+}
+input#chegada, input#saida {
+    background: url(img/calendario.jpg) #fff no-repeat 188px 4px;
+    color: #555;
+}
+
+form[name="reserva"]  button {
+    padding: 10px 30px;
+    background: #333;
+    color: #E7DC0E;
+    margin-left: 120px;
+}
+
+
 img{
 	max-width: 100px;
 }
