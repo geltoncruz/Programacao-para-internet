@@ -3,6 +3,7 @@ var click = document.querySelector("#click");
 var calcular = function(e){
 	e.preventDefault();
 
+	
 	var n1 = document.querySelector("#txtnum1").value;
 	var n2 = document.querySelector("#txtnum2").value;
 	var op = document.querySelector("#op").value;
